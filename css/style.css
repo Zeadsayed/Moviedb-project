@@ -178,7 +178,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px soilid var(--bg-black-50);
+    border-right: 1px solid var(--bg-black-50);
     transition: all 0.3s ease;
 }
 
@@ -728,7 +728,7 @@ h3.my-profession{
 }
 .portfolio .portfolio-item-inner .portfolio-title h5 a{
     padding: 10px;
-    color: var(--text-black-700);
+    color: var(--skin-color);
     text-decoration: none;
 }
 .portfolio .portfolio-item-inner .portfolio-title h5 a i{
