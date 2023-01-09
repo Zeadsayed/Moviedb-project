@@ -2,7 +2,7 @@
 /* ============================== Typing animation ==================== */
 
 var typed= new Typed(".typing",{
-    strings:[ "", "An Angular Developer", "An UI - UX Designer","A Graphic Designer"],
+    strings:[ "","A Front End Developer", "An Angular Developer", "An UI - UX Designer"],
     typeSpeed:100,
     backSpeed:60,
     loop:true,
