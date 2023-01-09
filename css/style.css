@@ -704,8 +704,8 @@ h3.my-profession{
 }
 
 .portfolio .portfolio-item{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 
@@ -713,14 +713,27 @@ h3.my-profession{
     border: 1px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
 }
-
+.portfolio .portfolio-item-inner .portfolio-title {
+    color: var(--text-black-900);
+    padding: 5px;
+}
+.portfolio .portfolio-item-inner .portfolio-title h3{
+    text-align: center;
+}
+.portfolio .portfolio-item-inner .portfolio-title h5 a{
+    padding: 10px;
+    color: var(--text-black-700);
+    text-decoration: none;
+}
+.portfolio .portfolio-item-inner .portfolio-title h5 a i{
+    font-size: 10px;
+}
 /* ==================================================== */
 /* ==================================================== */
 /* ==================================================== */
